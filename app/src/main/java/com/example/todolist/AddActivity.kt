@@ -20,7 +20,7 @@ class AddActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContentView(R.layout.activity_add)
         editTextTask = findViewById(R.id.edit_word)
         buttonSave = findViewById(R.id.button_save)
 
